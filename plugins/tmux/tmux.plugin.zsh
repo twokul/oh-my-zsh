@@ -3,8 +3,8 @@
 #
 
 alias ta='tmux attach -t'
-alias ts='tmux new-session -s'
-alias tl='tmux list-sessions'
+alias tns='tmux new-session -s'
+alias tls='tmux list-sessions'
 
 # Only run if tmux is actually installed
 if which tmux &> /dev/null

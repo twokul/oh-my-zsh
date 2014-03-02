@@ -4,7 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load.
 ZSH_THEME="alex"
 
-plugins=(git history)
+plugins=(git history tmux z)
 
 source $ZSH/oh-my-zsh.sh
 
