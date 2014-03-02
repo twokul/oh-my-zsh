@@ -2,10 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="alex"
 
 plugins=(git)
 
@@ -36,12 +33,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 zstyle ':completion:*' insert-tab pending
 
 # Custom prompt
-
-# if [[ -n $SSH_CONNECTION ]]; then
-  # export PS1='%m:%3~$(git_info_for_prompt)%# '
-# else
-  # export PS1='%3~$(git_info_for_prompt)%# '
-# fi
 
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
