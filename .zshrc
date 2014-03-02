@@ -10,7 +10,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/local/heroku/bin:/usr/local/share/npm/bin:/Users/alex/.dotfiles/bin:/Users/alex/.dotfiles/zsh/function:/Users/alex/.rbenv/shims:/Users/alex/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/heroku/bin:/usr/local/share/npm/bin:/Users/alex/.dotfiles/bin:/Users/alex/.dotfiles/zsh/function:/Users/alex/.rbenv/shims:/Users/alex/.rbenv/bin:/Users/alex/bin/FDK/Tools/osx:/Users/alex/bin/FDK/Tools/osx"
+export PATH="/usr/local/bin:/usr/local/heroku/bin:/usr/local/share/npm/bin:/Users/alex/.dotfiles/bin:/Users/alex/.dotfiles/zsh/function:/Users/alex/.rbenv/shims:/Users/alex/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/heroku/bin:/usr/local/share/npm/bin:/Users/alex/.oh-my-zsh/bin:/Users/alex/.oh-my-zsh/functions:/Users/alex/.rbenv/shims:/Users/alex/.rbenv/bin:/Users/alex/bin/FDK/Tools/osx:/Users/alex/bin/FDK/Tools/osx"
 
 # Terminal aliases
 
