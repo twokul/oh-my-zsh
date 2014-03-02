@@ -1,8 +1,14 @@
 # Aliases
+
 alias g='git'
 compdef g=git
+
 alias gst='git status'
 compdef _git gst=git-status
+
+alias gs='git status -sb'
+compdef _git gst=git-status
+
 alias gd='git diff'
 compdef _git gd=git-diff
 alias gdc='git diff --cached'
@@ -11,11 +17,19 @@ alias gl='git pull'
 compdef _git gl=git-pull
 alias gup='git pull --rebase'
 compdef _git gup=git-fetch
-alias gp='git push'
+
+alias gp='git push origin HEAD'
 compdef _git gp=git-push
+
 alias gd='git diff'
 gdv() { git diff -w "$@" | view - }
 compdef _git gdv=git-diff
+
+alias gpf='git push origin HEAD --force'
+alias grsu='git remote set-url'
+alias gum='git pull upstream master'
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+
 alias gc='git commit -v'
 compdef _git gc=git-commit
 alias gc!='git commit -v --amend'
@@ -64,8 +78,6 @@ alias glgga='git log --graph --decorate --all'
 compdef _git glgga=git-log
 alias glo='git log --oneline'
 compdef _git glo=git-log
-alias gss='git status -s'
-compdef _git gss=git-status
 alias ga='git add'
 compdef _git ga=git-add
 alias gm='git merge'
@@ -74,9 +86,6 @@ alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
 alias gclean='git reset --hard && git clean -dfx'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
-
-#remove the gf alias
-#alias gf='git ls-files | grep'
 
 alias gpoat='git push origin --all && git push origin --tags'
 alias gmt='git mergetool --no-prompt'
@@ -155,6 +164,3 @@ alias gignore='git update-index --assume-unchanged'
 alias gunignore='git update-index --no-assume-unchanged'
 # list temporarily ignored files
 alias gignored='git ls-files -v | grep "^[[:lower:]]"'
-
-
-
