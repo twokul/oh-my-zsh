@@ -4,7 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load.
 ZSH_THEME="alex"
 
-plugins=(git)
+plugins=(git history)
 
 source $ZSH/oh-my-zsh.sh
 

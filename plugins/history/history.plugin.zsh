@@ -1,4 +1,4 @@
-alias h='history'
+alias his='history'
 
 function hs
 {
